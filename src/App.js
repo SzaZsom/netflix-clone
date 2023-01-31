@@ -36,7 +36,7 @@ function App() {
       <Router>
         {!user ? (
           <LoginScreen />
-        ) : ( 
+        ) : (
         <Routes>
           <Route path='/profile' element={<ProfileScreen />}>
           </Route>
